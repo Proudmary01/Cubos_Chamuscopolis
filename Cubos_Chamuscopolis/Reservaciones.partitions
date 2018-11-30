@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="934ac513-5640-46cc-8650-dbbb7c0e5e9c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Reservaciones</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Ut Fact Reservaciones</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ef8ae8fb-f3a2-4529-b77f-a57736412780">
+          <ID>Ut Fact Reservaciones</ID>
+          <Name>Ut Fact Reservaciones</Name>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f2ef1436-881e-4e0e-8c71-7eff2b2c2596">
+            <DataSourceViewID>Stage_Chamuscopolis</DataSourceViewID>
+            <TableID>dbo_utFactReservaciones</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Reservaciones</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="578578df-c059-4c94-be33-47f67cbca915">
+          <ID>Ut Fact Reservaciones</ID>
+          <Name>Ut Fact Reservaciones</Name>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6f492cca-de7e-4690-ac04-5be996df8c47">
+            <DataSourceViewID>Stage_Chamuscopolis</DataSourceViewID>
+            <TableID>dbo_utFactReservaciones</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Reservaciones 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9c68eed3-ebaa-4896-9c79-976339453730">
+          <ID>Ut Fact Reservaciones</ID>
+          <Name>Ut Fact Reservaciones</Name>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="de14e519-37ab-40e2-9261-5a0ec2b94e39">
+            <DataSourceViewID>Stage_Chamuscopolis</DataSourceViewID>
+            <TableID>dbo_utFactReservaciones</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

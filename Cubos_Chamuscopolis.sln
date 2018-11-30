@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubos_Chamuscopolis", "Cubos_Chamuscopolis\Cubos_Chamuscopolis.dwproj", "{1CB700BC-5306-4BC6-9E7B-7BD4DD290D6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB700BC-5306-4BC6-9E7B-7BD4DD290D6B}.Development|Default.ActiveCfg = Development
+		{1CB700BC-5306-4BC6-9E7B-7BD4DD290D6B}.Development|Default.Build.0 = Development
+		{1CB700BC-5306-4BC6-9E7B-7BD4DD290D6B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1721C10-49F1-40A2-8A75-F37BB5CA16B0}
+	EndGlobalSection
+EndGlobal
